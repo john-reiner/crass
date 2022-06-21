@@ -27,28 +27,29 @@ img {
   max-width: 100%;
 }
 
-h1 {
-  color: cornflowerblue;
+.test {
+  color: red;
 }
 
-.error {
-  color: tomato;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  border: solid tomato;
+.card {
+  display: block;
   padding: 1em;
+  border: 1px solid #ddd;
+  -webkit-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
-.primary-btn {
-  color: #FFF;
-  border: 0;
-  background-color: #333;
-  border: solid 1px cornflowerblue;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 0.5em;
-  border-radius: 5px;
+.card .card-title {
+  font-size: 1rem;
+  padding-bottom: 1em;
+  font-weight: bold;
+}
+
+.card .card-body {
+  font-size: 1rem;
+}
+
+.card .card-body a {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=index.css.map */
