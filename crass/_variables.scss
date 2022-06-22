@@ -1,10 +1,21 @@
-//variables
-$primary: red;
-$secondary: yellowgreen; 
-$error: tomato;
-$info: gold;
-$white: #FFF;
-$dark: #333;
+// color palette
+$colors: (
+    "primary": cornflowerblue,
+    "secondary": yellowgreen,
+    "error": tomato,
+    "info": gold,
+    "dark": #333,
+    "blue": blue,
+    "red": red,
+    "yellow": yellow,
+    "green": green,
+    "orange": orange,
+    "purple": purple,
+    "grey": grey,
+    "gray": gray,
+    "black": black,
+    "white": white,
+);
 
 //spacing
 $base-padding: 1em;
@@ -12,10 +23,14 @@ $base-margin: 1em;
 
 //borders
 $base-border-thickness: 1px;
-$base-border-radius: 5px;
+$base-border-radius: 20px;
 
 // box-shadow
 $base-box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
 
 // font sizes
 $base-font-size: 1rem;
+$font-size-sm: $base-font-size * 0.75;
+$font-size-lg: $base-font-size * 1.5;
+$font-size-xl: $base-font-size * 2;
+$font-size-xxl: $base-font-size * 3;
